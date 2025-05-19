@@ -5,66 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Csíksomlyón a Román Posta</title>
-     <style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #b3d9ff, #004080); /* világostól sötétkékig */
-    color: white;
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-top: 2rem;
-  }
-
-  h1, h2, h3, a, p, li {
-    color: white;
-  }
-
-  a {
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
-    margin: 0.5rem;
-    display: inline-block;
-    transition: background-color 0.3s;
-  }
-
-  a:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  img {
-    max-width: 90%;
-    height: auto;
-    border-radius: 10px;
-    margin: 1rem 0;
-
-        .flag-button {
-            font-size: 2rem;
-            padding: 15px 30px;
-            margin: 20px;
-            cursor: pointer;
-            border: none;
-            border-radius: 10px;
-            background-color: #f9fafb;
-            color: #1e3a8a;
-        }
-    </style>
+	<link rel="stylesheet" href="style.css">
+     
 </head>
 <body>
     <h1>Román Posta – Poșta Română</h1>
+	<img class="logo" src="img/logo.png" alt="Logo">
     <p>Isten hozott Csíksomlyón!<br>Bine ați venit la Șumuleu Ciuc!</p>
-    <button class="flag-button" onclick="window.location.href='app.html?lang=hu'">🇭🇺 Magyar</button>
-    <button class="flag-button" onclick="window.location.href='app.html?lang=ro'">🇷🇴 Română</button>
+    <button class="flag-button" onclick="window.location.href='app.html?lang=hu'">
+	 <img class="flag" src="https://flagcdn.com/w20/hu.png" alt="Magyar zászló"> Magyar</button>
+    <button class="flag-button" onclick="window.location.href='app.html?lang=ro'">
+	<img class="flag" src="https://flagcdn.com/w20/ro.png" alt="Román zászló">  Română</button>
 </body>
 </html>
