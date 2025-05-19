@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const lang = urlParams.get('lang') || 'hu';
@@ -6,6 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch('data.json')
         .then(res => res.json())
         .then(data => {
+            // ✨ Itt beírjuk a címet is
+            const titleElement = document.querySelector("#title h1");
+            if (titleElement && data.title) {
+                titleElement.textContent = data.title[lang] || data.title.hu;
+            }
+
             const linksContainer = document.getElementById("links");
             const imagesContainer = document.getElementById("images");
 
