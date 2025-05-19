@@ -1,0 +1,35 @@
+
+{
+  "links": [
+    {
+      "label": {
+        "hu": "Facebook – Csíksomlyó Kegyhely",
+        "ro": "Facebook – Sanctuarul Șumuleu Ciuc"
+      },
+      "url": "https://www.facebook.com/CsiksomlyoKegyhely"
+    },
+    {
+      "label": {
+        "hu": "Facebook – OJPCHR",
+        "ro": "Facebook – OJPCHR"
+      },
+      "url": "https://www.facebook.com/ojpchr"
+    },
+    {
+      "label": {
+        "hu": "Román Posta weboldala",
+        "ro": "Site-ul Poștei Române"
+      },
+      "url": "http://www.posta-romana.ro"
+    }
+  ],
+  "images": [
+    {
+      "src": "img/profil.jpg",
+      "alt": {
+        "hu": "Profilképem",
+        "ro": "Fotografia mea de profil"
+      }
+    }
+  ]
+}
