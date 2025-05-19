@@ -1,20 +1,18 @@
 
 {
-	"images": [
+  "images": [
     {
       "src": "img/profil.jpg",
       "alt": {
         "hu": "Profilképem",
         "ro": "Fotografia mea de profil"
-      },
-	
-	"title": [
-    {
-      
-        "hu": "Isten hozott Csíksomlyón!"
-        "ro": "Bine ați venit la Șumuleu Ciuc!"
-      },
-	
+      }
+    }
+  ],
+  "title": {
+    "hu": "Isten hozott Csíksomlyón!",
+    "ro": "Bine ați venit la Șumuleu Ciuc!"
+  },
   "links": [
     {
       "label": {
@@ -26,7 +24,7 @@
     {
       "label": {
         "hu": "OJPCHR",
-        "ro": " OJPCHR"
+        "ro": "OJPCHR"
       },
       "url": "https://www.facebook.com/ojpchr"
     },
@@ -37,8 +35,7 @@
       },
       "url": "http://www.posta-romana.ro"
     }
-  ],
-  
-    }
   ]
 }
+
+
